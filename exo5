@@ -1,0 +1,7 @@
+puts "choisis un chiffre  "
+
+chiffre = gets.chomp.to_i
+
+chiffre.times do
+    puts "ALLEZ PARIS"
+  end

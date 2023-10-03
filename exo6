@@ -1,0 +1,9 @@
+puts "choisis un chiffre  "
+chiffre = gets.chomp.to_i
+
+
+chiffre2 = chiffre-1 
+
+chiffre2.times do
+    puts "GO HAWKS"
+  end

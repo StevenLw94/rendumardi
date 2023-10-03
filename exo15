@@ -1,0 +1,9 @@
+puts "Entrez un nombre entre 1 et 25 :"
+nombre = gets.chomp.to_i
+
+if nombre >= 1 && nombre <= 25
+    puts "Voici la pyramide :"
+end
+do i
+    puts "#" * i
+  end

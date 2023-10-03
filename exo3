@@ -1,0 +1,5 @@
+puts "en quelle année es tu né(e) ?"
+annee = gets.chomp.to_i
+ age_en_2015 = 2015 - annee
+
+ puts "en 2015 tu avais #{age_en_2015} ans"

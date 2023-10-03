@@ -1,0 +1,13 @@
+
+
+50.times do |i|
+  if i < 9
+    numero = "0#{i + 1}"
+  else
+    numero = i + 1
+  end
+  
+
+end
+
+puts emails

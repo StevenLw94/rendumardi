@@ -1,0 +1,6 @@
+puts "choisis un nombre  "
+nombre = gets.chomp.to_i
+
+for nombre in 1.to_i
+    puts i
+  end

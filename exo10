@@ -1,0 +1,17 @@
+puts "en quelle annee est tu né(e)?"
+annee_naissance = gets.chomp.to_i
+annee_actuelle = Time.now.year
+
+
+
+puts "Voici les années depuis votre année de naissance jusqu'à aujourd'hui :"
+
+(annee_naissance..annee_actuelle).each do |i|
+puts i 
+    age = i - annee_naissance
+
+ puts "en #{i} tu avais #{age} ans"
+end
+
+
+

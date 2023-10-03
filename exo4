@@ -1,0 +1,5 @@
+puts "en quelle année es tu né(e) ?"
+annee = gets.chomp.to_i
+ centenaire =  annee + 100 
+
+ puts "tu auras 100ans en #{centenaire} "

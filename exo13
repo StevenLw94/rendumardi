@@ -1,0 +1,13 @@
+emails = []
+
+50.times do |i|
+  if i < 9
+    numero = "0#{i + 1}"
+  else
+    numero = i + 1
+  end
+
+  emails << "email#{numero}.example.com"
+end
+
+puts emails
